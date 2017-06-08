@@ -1,0 +1,47 @@
+#localVideo {
+    position: fixed;
+    left: 10px;
+    width: 20vw;
+}
+
+.remoteVideo {
+    width: 100%;
+}
+
+#remoteVideos {
+    margin: auto;
+}
+
+#chat {
+    position: fixed;
+    right: 2.5vw;
+    bottom: 5vh;
+    border: gray groove 2px;
+    padding: 10px;
+    height: 50vh;
+    width: 20vw;
+}
+
+#newMessage {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+}
+
+#initialMessage {
+    margin: auto;
+    width: 150px;
+}
+
+#messages > div {
+    word-wrap: break-word;
+}
+
+#messages {
+    overflow-y: scroll;
+    height: 40vh;
+}
+
+#message {
+    width: 10vw;
+}

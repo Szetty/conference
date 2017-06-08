@@ -1,0 +1,15 @@
+<div>
+    <video id="localVideo" autoplay></video>
+    <div id="remoteVideos">
+
+    </div>
+    <div id="chat">
+        <div id="messages">
+            <div id="initialMessage">-----Chat Messages-----</div>
+        </div>
+        <div id="newMessage">
+            <input type="text" id="message"/>
+            <input id="send" type="button" value="Send"/>
+        </div>
+    </div>
+</div>
